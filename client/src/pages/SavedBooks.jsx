@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { QUERY_ME } from '../utils/queries';
-import { useQuery } from '@apollo/client';
-import { REMOVE_BOOK } from "../utils/mutations";
-import { useMutation } from '@apollo/client'
+import { REMOVE_BOOK } from '../utils/mutations';
+import { useQuery, useMutation } from '@apollo/client';
 import {
   Container,
   Card,
@@ -11,16 +10,15 @@ import {
   Col
 } from 'react-bootstrap';
 
-import {  deleteBook } from '../utils/API';
+import { deleteBook } from '../utils/API';
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
   const [userData, setUserData] = useState({});
   const { loading, data } = useQuery(QUERY_ME);
-  const savedBooks = data?.me.savedBooks || []; 
-  const [removeBook] = useMutation(REMOVE_BOOK);
-
+  const savedBooks = data?.me.savedBooks || [];
+  const [RemoveBook] = useMutation(REMOVE_BOOK);
   // create function that accepts the book's mongo _id value as param and deletes the book from the database
   const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
@@ -30,7 +28,7 @@ const SavedBooks = () => {
     }
 
     try {
-      const response = await removeBook({variables:{bookId: bookId}});
+      const response = await RemoveBook({variables:{bookId: bookId}});
 
       if (!response.ok) {
         throw new Error('something went wrong!');
@@ -64,7 +62,7 @@ const SavedBooks = () => {
             : 'You have no saved books!'}
         </h2>
         <Row>
-          {savedBooks.map((book) => {
+          { savedBooks.map((book) => {
             return (
               <Col md="4">
                 <Card key={book.bookId} border='dark'>
