@@ -35,15 +35,29 @@ The Bookshelf App is a full-stack web application that allows users to search fo
 ![Animation shows "star wars" typed into a search box and books about Star Wars appearing as results.](./assets/21-mern-homework-demo-01.gif)
 
 ![Alt text](./assets/1.png "Welcome screen")
-![Alt text](./assets/2.png "Welcome screen")
+
 
 - User can save books by clicking "Save This Book!" under each search result:
 
 ![Animation shows user clicking "Save This Book!" button to save books that appear in search results. The button label changes to "Book Already Saved" after it is clicked and the book is saved.](./assets/21-mern-homework-demo-02.gif)
 
+![Alt text](./assets/2.png "Welcome screen")
+
 - User can view their saved books on a separate page:
 
 ![The Viewing Lernantino's Books page shows the books that the user Lernaninto has saved.](./Assets/21-mern-homework-demo-03.gif)
+
+![Alt text](./assets/3.png "Login page")
+![Alt text](./assets/4.png "SignUp page")
+![Alt text](./assets/5.png "Separate page")
+
+- Managing queries from Apollo Server 
+
+![Alt text](./assets/Login.png "Login query")
+![Alt text](./assets/Query_ME.png "Query_ME")
+![Alt text](./assets/Signup.png "Signup query")
+![Alt text](./assets/SaveBook.png "SaveBook query")
+![Alt text](./assets/RemoveBook.png "RemoveBook query")
 
 ## Technologies
 
