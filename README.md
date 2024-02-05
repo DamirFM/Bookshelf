@@ -18,25 +18,31 @@ The Bookshelf App is a full-stack web application that allows users to search fo
 
 ## Content ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
+- [Screenshots](#Screenshots)
 - [Technologies](#Technologies)
 - [Link-of-deployed-application](#Link-of-deployed-application)
 - [Features](#Features)
-- [Screenshots](#Screenshots)
 - [Installation](#Installation)
 - [Contributing](#Contributing)
 - [Questions](#Questions)
 
+## Screenshots
+
+- User can type a search term (in this case, "star wars") in a search box and the results appear:
+
+![Animation shows "star wars" typed into a search box and books about Star Wars appearing as results.](./assets/21-mern-homework-demo-01.gif)
+
 ## Technologies
 
-- Frontend:
- **React.js**
- **Apollo Client for GraphQL**
+1. Frontend:
+- React.js
+- Apollo Client for GraphQL
 
-- Backend:
- **Node.js**
- **Express.js**
- **Apollo Server for GraphQL**
- **MongoDB with Mongoose for data storage**
+2. Backend:
+- Node.js
+- Express.js
+- Apollo Server for GraphQL
+- MongoDB with Mongoose for data storage
 
 ## Link of deployed application
 
