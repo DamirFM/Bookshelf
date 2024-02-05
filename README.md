@@ -34,14 +34,14 @@ The Bookshelf App is a full-stack web application that allows users to search fo
 
 ![Animation shows "star wars" typed into a search box and books about Star Wars appearing as results.](./assets/21-mern-homework-demo-01.gif)
 
-![Alt text](./assets/1.png "Welcome screen")
+![Alt text](./assets/1.png "Welcome screen1")
 
 
 - User can save books by clicking "Save This Book!" under each search result:
 
 ![Animation shows user clicking "Save This Book!" button to save books that appear in search results. The button label changes to "Book Already Saved" after it is clicked and the book is saved.](./assets/21-mern-homework-demo-02.gif)
 
-![Alt text](./assets/2.png "Welcome screen")
+![Alt text](./assets/2.png "Welcome screen2")
 
 - User can view their saved books on a separate page:
 
