@@ -14,11 +14,11 @@
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098.svg?style=for-the-badge&logo=GraphQL&logoColor=white)
 ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
 
-## Description
+### Description
 
 The Bookshelf App is a full-stack web application that allows users to search for books using the Google Books API, save them to their personal bookshelf, and view and manage their saved books.
 
-## Content ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
+### Content ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
 - [Screenshots](#Screenshots)
 - [Technologies](#Technologies)
@@ -28,7 +28,7 @@ The Bookshelf App is a full-stack web application that allows users to search fo
 - [Contributing](#Contributing)
 - [Questions](#Questions)
 
-## Screenshots
+### Screenshots
 
 - User can type a search term (in this case, "star wars") in a search box and the results appear:
 
@@ -59,7 +59,7 @@ The Bookshelf App is a full-stack web application that allows users to search fo
 ![Alt text](./assets/SaveBook.png "SaveBook query")
 ![Alt text](./assets/RemoveBook.png "RemoveBook query")
 
-## Technologies
+### Technologies
 
 1. Frontend:
 - React.js
@@ -71,11 +71,11 @@ The Bookshelf App is a full-stack web application that allows users to search fo
 - Apollo Server for GraphQL
 - MongoDB with Mongoose for data storage
 
-## Link of deployed application
+### Link of deployed application
 
 - https://bookshelf-mern-app.onrender.com
 
-## Features
+### Features
 
 1. User Authentication:
 - Users can sign up and log in to the application.
@@ -91,7 +91,7 @@ The Bookshelf App is a full-stack web application that allows users to search fo
 - Each saved book displays details such as title, authors, description, and cover image.
 - Users can delete a book from their bookshelf.
 
-## Installation
+### Installation
 
 Follow these steps to set up the Candy Comment App on your local machine:
 
@@ -99,10 +99,10 @@ Follow these steps to set up the Candy Comment App on your local machine:
 2. Install dependencies;
 3. Set up your database.
 
-## Contributing
+### Contributing
 
 Contributions are welcome!
 
-## Questions
+### Questions
 If you have any questions or issues, please feel free to reach out:
 - GitHub: https://github.com/DamirFM
